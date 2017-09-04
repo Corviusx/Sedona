@@ -1,0 +1,12 @@
+{
+  "name": "Sedona",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Corviusx/Sedona.git",
+  "author": "Corvius",
+  "license": "MIT",
+  "dependencies": {
+    "blendid": "^4.2.0",
+    "normalize.css": "^7.0.0"
+  }
+}

@@ -1,0 +1,9 @@
+@font-face {
+  font-family: PT Sans_Bold;
+  src: url(../fonts/PT_Sans/PT_Sans-Web-Bold.ttf); }
+
+@font-face {
+  font-family: PT Sans;
+  src: url(../fonts/PT_Sans/PT_Sans-Web-Regular.ttf); }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZvbnRzLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLDBCQUEwQjtFQUMxQixnREFBZ0QsRUFBRTs7QUFFcEQ7RUFDRSxxQkFBcUI7RUFDckIsbURBQW1ELEVBQUUiLCJmaWxlIjoiYmFzZS9mb250cy5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAZm9udC1mYWNlIHtcbiAgZm9udC1mYW1pbHk6IFBUIFNhbnNfQm9sZDtcbiAgc3JjOiB1cmwoLi4vZm9udHMvUFRfU2Fucy9QVF9TYW5zLVdlYi1Cb2xkLnR0Zik7IH1cblxuQGZvbnQtZmFjZSB7XG4gIGZvbnQtZmFtaWx5OiBQVCBTYW5zO1xuICBzcmM6IHVybCguLi9mb250cy9QVF9TYW5zL1BUX1NhbnMtV2ViLVJlZ3VsYXIudHRmKTsgfVxuIl19 */

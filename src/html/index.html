@@ -1,0 +1,38 @@
+{#
+  Nunjucks Templating!
+  Homepage: https://mozilla.github.io/nunjucks/
+  Docs: https://mozilla.github.io/nunjucks/api.html
+#}
+
+{% extends 'layouts/application.html' %}
+
+{% block nav %}
+  <nav class="nav">
+    <div class="nav__hidden">
+      <a class="nav__button">главная</a>
+      <button class="nav__close">
+        <svg class="nav__closebutton-icon" viewBox="0 0 32 32"><use xlink:href='images/icons.svg#icon-cross'></use></svg>
+      </button>
+      <a class="nav__button">фото и видео</a>
+      <a class="nav__button">форма отзыва</a>
+      <a class="nav__button">html academy</a>
+    </div>
+    <div class="nav__visible">
+      <button type="button" name="hamburger" class="nav__hamburger">
+        <svg class="nav__burger-icon"viewBox="0 0 32 32"><use xlink:href='images/icons.svg#icon-menu'></use></svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- <header class="page-header">
+    <figure class="nav__logo">
+      <img src="images/logotyle.svg" alt="Logo"></img>
+    </figure>
+    <figure class="page-header__text">
+      <img src="images/text-index.svg" alt="text"></img>
+    </figure>
+    <figure class="page-header__triangles">
+      <img src="images/intro-triangle.svg" alt="triangle"></img>
+    </figure>
+  </header> -->
+{% endblock %}
