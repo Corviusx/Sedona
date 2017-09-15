@@ -15,36 +15,148 @@
   <body>
     
   <nav class="nav">
-    <div class="nav__hidden">
-      <a class="nav__button">главная</a>
-      <button class="nav__close">
+    <div class="nav__hidden" id="navigation">
+      <a class="button" href="#">главная</a>
+      <button class="nav__close" id="closebutton">
         <svg class="nav__closebutton-icon" viewBox="0 0 32 32"><use xlink:href='images/icons.svg#icon-cross'></use></svg>
       </button>
-      <a class="nav__button">фото и видео</a>
-      <a class="nav__button">форма отзыва</a>
-      <a class="nav__button">html academy</a>
+      <a class="button" href="#">фото и видео</a>
+      <a class="button" href="#">форма отзыва</a>
+      <a class="button" href="#">html academy</a>
     </div>
     <div class="nav__visible">
-      <button type="button" name="hamburger" class="nav__hamburger">
+      <button type="button" name="hamburger" class="nav__hamburger" id="hamburger">
         <svg class="nav__burger-icon"viewBox="0 0 32 32"><use xlink:href='images/icons.svg#icon-menu'></use></svg>
       </button>
     </div>
   </nav>
 
-  <!-- <header class="page-header">
-    <figure class="nav__logo">
-      <img src="images/logotyle.svg" alt="Logo"></img>
-    </figure>
-    <figure class="page-header__text">
-      <img src="images/text-index.svg" alt="text"></img>
-    </figure>
-    <figure class="page-header__triangles">
-      <img src="images/intro-triangle.svg" alt="triangle"></img>
-    </figure>
-  </header> -->
+
+    
+  <header class="page-header">
+    <img class="page__logo" src="images/logotyle.svg" alt="Logo"></img>
+    <img class="page-header__text" src="images/text-index.svg" alt="text"></img>
+    <img class="page-header__triangles" src="images/intro-triangle.svg" alt="triangle"></img>
+  </header>
+
+
+    
+<section class="description">
+  <div class="description__title-wrapper">
+    <h3 class="description__title">СЕДОНА — небольшой<br> городок в АРИЗОНЕ, <br>зАСЛУЖИвающий большего!</h3>
+    <p class="description__title-text">Рассмотрим 5 причин, по которым Седона круче чем гранд каньон!</p>
+  </div>
+  <img class="description__triangles" src="images/mobile-triangles2.svg" alt="triangle"></img>
+  <section class="reasons-wrapper">
+    
+  <div class="reason">
+    <h3 class="reason__h3">НАСТОЯЩИЙ ГОРОДОК</h3>
+    <p class="reason__p">— №1 —</p>
+    <p class="reason__p">СЕДОНА НЕ АТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+  </div>
+
+    <img class="reason__img1" src="images/reason-img-1.png" alt="reason1"></img>
+
+    <section class="reasons-small">
+      <div class="reasons-small__wrapper">
+        <div class="reasons-small__title">
+          <svg class="reasons-small__icon"viewBox="0 0 32 32"><use xlink:href='images/icons.svg#icon-house'></use></svg>
+          <h3 class="reasons-small__h3">Жилье</h3>
+        </div>
+        <p class="reasons-small__p">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+      </div>
+      <div class="reasons-small__wrapper">
+        <div class="reasons-small__title">
+          <svg class="reasons-small__icon"viewBox="0 0 32 32"><use xlink:href='images/icons.svg#icon-gift'></use></svg>
+          <h3 class="reasons-small__h3">СУВЕНИРЫ</h3>
+        </div>
+        <p class="reasons-small__p">Не только китайского, но и местного производства!</p>
+      </div>
+      <div class="reasons-small__wrapper">
+        <div class="reasons-small__title">
+          <svg class="reasons-small__icon"viewBox="0 0 32 32"><use xlink:href='images/icons.svg#icon-food'></use></svg>
+          <h3 class="reasons-small__h3">ЕДА</h3>
+        </div>
+        <p class="reasons-small__p">Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
+      </div>
+    </section>
+
+    
+  <div class="reason">
+    <h3 class="reason__h3">ТАМ ЕСТЬ Мост дьявола</h3>
+    <p class="reason__p">— №2 —</p>
+    <p class="reason__p">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+  </div>
+
+    <img class="reason__img2" src="images/reason-img-2.png" alt="reason2"></img>
+    <section class="reasons-gray">
+      
+  <div class="reason">
+    <h3 class="reason__h3">НЕБОЛЬШАЯ ПЛОЩАДЬ</h3>
+    <p class="reason__p">— №3 —</p>
+    <p class="reason__p">ВСЕ достопримечательности находятся очень близко</p>
+  </div>
+
+      <hr class="reasons-gray__line"></hr>
+      
+  <div class="reason">
+    <h3 class="reason__h3">КРАСИВАЯ ДОРОГА</h3>
+    <p class="reason__p">— №4 —</p>
+    <p class="reason__p">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!</p>
+  </div>
+
+      <hr class="reasons-gray__line"></hr>
+      
+  <div class="reason">
+    <h3 class="reason__h3">МАЛО ТУРИСТОВ</h3>
+    <p class="reason__p">— №5 —</p>
+    <p class="reason__p">Большинство едет в гранд каньон и толпится там</p>
+  </div>
+
+    </section>
+    <section class="intrested">
+      <div class="intrested__textblock">
+        <h3 class="intrested__h3">ЗАИНТЕРЕСОВАЛИСЬ?</h3>
+        <p class="intrested__p">Укажите предполагаемые даты<br> поездки и мы покажем вам лучшие<br> предложения гостиниц в седоне</p>
+      </div>
+      <a class="button" href="#">НАЙТИ ГОСТИНИЦУ</a>
+    </section>
+  </section>
+  <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d837582.5774991356!2d-111.8796310660
+  4673!3d34.911294034247135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548
+  c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQ
+  qNCQ!5e0!3m2!1sru!2sua!4v1505244782121"
+  frameborder="0" style="border:0" allowfullscreen></iframe>
+</section>
+
+
+    
+<footer class="footer">
+  <h3 class="footer__hashtag">#visitSEDONA</h3>
+  <div class="footer__social">
+    <a class="footer__button" href="#">
+      <svg class="footer__social-icon" viewBox="0 0 18 14"><use xlink:href='images/icons.svg#twitter'></use></svg>
+    </a>
+    <a class="footer__button" href="#">
+      <svg class="footer__social-icon" viewBox="0 0 9 18"><use xlink:href='images/icons.svg#facebook'></use></svg>
+    </a>
+    <a class="footer__button" href="#">
+      <svg class="footer__social-icon" viewBox="0 0 20 14"><use xlink:href='images/icons.svg#youtube'></use></svg>
+    </a>
+  </div>
+  <div class="footer__author">
+    <p class="footer__authortext">Разработано</p>
+    <svg class="footer__htmlacademy"viewBox="0 0 27 34"><use xlink:href='images/icons.svg#htmlacademy'></use></svg>
+  </div>
+
+
+</footer>
+
 
     
       <script src="javascripts/app.js"></script>
     
+
+
   </body>
 </html>

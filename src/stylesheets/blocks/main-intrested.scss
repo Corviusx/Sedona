@@ -1,0 +1,41 @@
+.intrested {
+  width: 100%;
+  height: 287px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  .button {
+    width: 87.5%;
+    margin-bottom: 48px;
+    height: 58px;
+  }
+}
+
+.intrested__textblock {
+  width: 81%;
+  height: 117px;
+  font-family: 'PT Sans', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 27px;
+}
+
+.intrested__h3 {
+  color: #000000;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+  margin: 0;
+}
+
+.intrested__p{
+  color: #333333;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+}
