@@ -10,18 +10,37 @@
 }
 
 .page__logo {
-  width: 32%;
+  width: 102px;
   margin: -56px 0 0 0;
   position: relative;
-
 }
 
 .page-header__text {
   margin: 0;
+  max-width: 282px;
   width: 88.1%;
 }
 
 .page-header__triangles {
   margin: -37px -2px 0px -2px;
   width: 100%;
+}
+
+@media (min-width: 321px) {
+  .page-header {
+    background-image: url('../images/back-tablet.png');
+    height: 518px;
+  }
+
+  .page-header__text {
+    width: 59.8%;
+    max-width: 460px;
+  }
+}
+
+@media (min-width: 769px) {
+  .page-header {
+    background-image: url('../images/back-desktop.png');
+    height: 518px;
+  }
 }

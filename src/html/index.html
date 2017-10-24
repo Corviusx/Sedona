@@ -8,7 +8,7 @@
 
 {% block nav %}
   <nav class="nav">
-    <div class="nav__hidden" id="navigation">
+    <div class="nav__hidden">
       <a class="button" href="#">главная</a>
       <button class="nav__close" id="closebutton">
         <svg class="nav__closebutton-icon" viewBox="0 0 32 32"><use xlink:href='images/icons.svg#icon-cross'></use></svg>
@@ -29,8 +29,12 @@
 {% block header %}
   <header class="page-header">
     <img class="page__logo" src="images/logotyle.svg" alt="Logo"></img>
-    <img class="page-header__text" src="images/text-index.svg" alt="text"></img>
-    <img class="page-header__triangles" src="images/intro-triangle.svg" alt="triangle"></img>
+    <img class="page-header__text" src="images/text-index.svg"
+         srcset="images/text-index.svg 320w, images/page-header-text-tablet.svg 1200w"
+         alt="text"></img>
+    <img class="page-header__triangles" src="images/intro-triangle.svg"
+         srcset="images/intro-triangle.svg 320w, images/main-triangles-tablet.svg 768w, images/intro-triangle-desctop.svg 1200w"
+         alt="triangle"></img>
   </header>
 {% endblock %}
 
@@ -38,51 +42,57 @@
 {% block description %}
 <section class="description">
   <div class="description__title-wrapper">
-    <h3 class="description__title">СЕДОНА — небольшой<br> городок в АРИЗОНЕ, <br>зАСЛУЖИвающий большего!</h3>
+    <h3 class="description__title">СЕДОНА — небольшой городок в АРИЗОНЕ, <br>зАСЛУЖИвающий большего!</h3>
     <p class="description__title-text">Рассмотрим 5 причин, по которым Седона круче чем гранд каньон!</p>
   </div>
   <img class="description__triangles" src="images/mobile-triangles2.svg" alt="triangle"></img>
   <section class="reasons-wrapper">
-    {{reasons('НАСТОЯЩИЙ ГОРОДОК', '— №1 —', 'СЕДОНА НЕ АТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ')}}
-    <img class="reason__img1" src="images/reason-img-1.png" alt="reason1"></img>
-
+    <div class="reasons__reason1-wrapper">
+      {{reasons('НАСТОЯЩИЙ <br class="reason__br">ГОРОДОК' | safe, '— №1 —', 'СЕДОНА НЕ АТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ<br class="reason__br"> ТЕЧЕТ СВОЯ ЖИЗНЬ' | safe)}}
+      <img class="reason__img" src="images/reason-img-1.png"
+           srcset="images/reason-img-1.png 320w, images/reason-img-1-tablet.png 768w, images/reason-img-1-desktop.png 1200w"
+           alt="reason1"></img>
+    </div>
     <section class="reasons-small">
       <div class="reasons-small__wrapper">
         <div class="reasons-small__title">
-          <svg class="reasons-small__icon"viewBox="0 0 32 32"><use xlink:href='images/icons.svg#icon-house'></use></svg>
+          <svg class="reasons-small__icon" viewBox="0 0 39 37"><use xlink:href='images/icons.svg#icon-house'></use></svg>
           <h3 class="reasons-small__h3">Жилье</h3>
         </div>
-        <p class="reasons-small__p">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+        <p class="reasons-small__p">Рекомендуем пожить в настоящем мотеле, все как <br>в кино!</p>
       </div>
       <div class="reasons-small__wrapper">
         <div class="reasons-small__title">
-          <svg class="reasons-small__icon"viewBox="0 0 32 32"><use xlink:href='images/icons.svg#icon-gift'></use></svg>
+          <svg class="reasons-small__icon" viewBox="0 0 32 38"><use xlink:href='images/icons.svg#icon-gift'></use></svg>
           <h3 class="reasons-small__h3">СУВЕНИРЫ</h3>
         </div>
         <p class="reasons-small__p">Не только китайского, но и местного производства!</p>
       </div>
       <div class="reasons-small__wrapper">
         <div class="reasons-small__title">
-          <svg class="reasons-small__icon"viewBox="0 0 32 32"><use xlink:href='images/icons.svg#icon-food'></use></svg>
+          <svg class="reasons-small__icon" viewBox="0 0 40 35"><use xlink:href='images/icons.svg#icon-food'></use></svg>
           <h3 class="reasons-small__h3">ЕДА</h3>
         </div>
-        <p class="reasons-small__p">Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
+        <p class="reasons-small__p">Всегда заказывай фирменный бургер, <br class="reasons-small__br">вы не разочаруетесь!</p>
       </div>
     </section>
-
-    {{reasons('ТАМ ЕСТЬ Мост дьявола', '— №2 —', 'Да, по нему можно пройти! Если конечно вы осмелитесь')}}
-    <img class="reason__img2" src="images/reason-img-2.png" alt="reason2"></img>
+    <div class="reasons__reason2-wrapper">
+      {{reasons('ТАМ ЕСТЬ <br class="reason__br">Мост дьявола' | safe, '— №2 —', 'Да, по нему можно пройти! Если конечно вы осмелитесь')}}
+      <img class="reason__img" src="images/reason-img-2.png"
+           srcset="images/reason-img-2.png 320w, images/reason-img-2-tablet.png 768w, images/reason-img-2-desktop.png 1200w"
+           alt="reason2"></img>
+    </div>
     <section class="reasons-gray">
-      {{reasons('НЕБОЛЬШАЯ ПЛОЩАДЬ', '— №3 —', 'ВСЕ достопримечательности находятся очень близко')}}
+      {{reasons('НЕБОЛЬШАЯ <br class="reason-gray__br">ПЛОЩАДЬ' | safe, '— №3 —', 'ВСЕ достопримеча<span class="reason-gray__span">-</span><br class="reason-gray__br">тельности находятся очень близко' | safe)}}
       <hr class="reasons-gray__line"></hr>
-      {{reasons('КРАСИВАЯ ДОРОГА', '— №4 —', 'ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!')}}
+      {{reasons('КРАСИВАЯ <br class="reason-gray__br">ДОРОГА' | safe, '— №4 —', 'ЕХАТЬ В СЕДОНУ ИЗ <br class="reason-gray__br">ЛАС-ВЕГАСА совсем НЕ СКУЧНО!' | safe)}}
       <hr class="reasons-gray__line"></hr>
-      {{reasons('МАЛО ТУРИСТОВ', '— №5 —', 'Большинство едет в гранд каньон и толпится там')}}
+      {{reasons('МАЛО <br class="reason-gray__br">ТУРИСТОВ' | safe, '— №5 —', 'Большинство едет в гранд каньон и толпится там')}}
     </section>
     <section class="intrested">
       <div class="intrested__textblock">
         <h3 class="intrested__h3">ЗАИНТЕРЕСОВАЛИСЬ?</h3>
-        <p class="intrested__p">Укажите предполагаемые даты<br> поездки и мы покажем вам лучшие<br> предложения гостиниц в седоне</p>
+        <p class="intrested__p">Укажите предполагаемые даты поездки <br class="intrested__br">и мы покажем вам лучшие предложения гостиниц в седоне</p>
       </div>
       <a class="button" href="#">НАЙТИ ГОСТИНИЦУ</a>
     </section>
@@ -118,10 +128,12 @@
 </footer>
 {% endblock %}
 
-{% macro reasons(h3, n1 ,p) %}
+{% macro reasons(h3, n1 ,p)%}
   <div class="reason">
+    <div class="reason__textwrapper">
     <h3 class="reason__h3">{{h3}}</h3>
     <p class="reason__p">{{n1}}</p>
     <p class="reason__p">{{p}}</p>
+    </div>
   </div>
 {% endmacro %}

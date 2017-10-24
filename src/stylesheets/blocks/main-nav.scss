@@ -17,20 +17,14 @@
   cursor: pointer;
 }
 
-.nav__list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  list-style-type: none;
-  padding: 0px;
-  margin: 0px;
-  box-shadow: 0 0 10px rgba(#000, .5);
-}
-
 .nav__hidden {
   display: none;
   flex-wrap: wrap;
   flex-direction: row;
+}
+
+.nav__show {
+  display: flex;
 }
 
 .nav__visible {
@@ -40,21 +34,6 @@
   height: 56px;
   width: 100%;
   box-shadow: 0 -7px 9px -7px rgba(#000, .5);
-}
-
-.button {
-  height: 55px;
-  width: 100%;
-  padding: 0px;
-  background-color: #81b3d2;
-  border: none;
-  color: #ffffff;
-  font-family: 'PT Sans_Bold', sans-serif;
-  font-size: 18px;
-  line-height: 55px;
-  text-transform: uppercase;
-  text-align: center;
-  text-decoration: none;
 }
 
 .nav__close {
@@ -70,24 +49,18 @@
 
 .nav__close:hover {
   cursor: pointer;
+  background-color: #669ec0;
 }
 
-.nav .button:nth-child(n+1):nth-child(-n+4) {
-  border-bottom: 1px solid rgba(1, 1, 1, 0.2);
-}
-
-.nav .button:nth-child(n+3):nth-child(-n+5) {
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.nav .button:nth-child(1) {
-  width: 60%;
-  padding-left: 20%;
+.nav__close:focus {
+  background-color: #669ec0;
+  background-color: #5496bd;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .nav__closebutton-icon {
-   width: 20px;
-   height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 .nav__burger-icon {
@@ -97,4 +70,74 @@
 .nav__logo {
   margin: 0 0 0 0;
   align-self: flex-start;
+}
+
+@media (max-width: 320px) {
+  .nav .button:nth-child(n+1):nth-child(-n+4) {
+    border-bottom: 1px solid rgba(1, 1, 1, 0.2);
+  }
+
+  .nav .button:nth-child(n+3):nth-child(-n+5) {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .nav .button:nth-child(1) {
+    width: 60%;
+    padding-left: 20%;
+  }
+}
+
+@media (min-width: 550px) {
+  .nav__hidden {
+    display: flex;
+    height: 56px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .nav__close {
+    display: none;
+  }
+
+  .nav__visible{
+    display: none;
+  }
+
+  .nav {
+    .button {
+      width: 20%;
+      background-color: #ffffff;
+      height: 56px;
+      color: #000000;
+      font-family: 'PT Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      &:nth-child(4) {
+        margin-left: 10%;
+      }
+      &:nth-child(3) {
+        margin-right: 10%;
+      }
+      &:hover {
+        background-color: #ffffff;
+        color: #81b3d2;
+      }
+      &:focus {
+        background-color: #ffffff;
+        opacity: 0.3;
+        color: #000000;
+      }
+      &:active {
+          color: #766357;
+        &:hover {
+          color: #604e43;
+        }
+        &:focus {
+          opacity: 0.3;
+          color: #766357;
+        }
+      }
+    }
+  }
 }

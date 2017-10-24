@@ -38,6 +38,17 @@
   align-items: center;
 }
 
+.footer__button:hover {
+  background-color: #669ec0;
+}
+
+.footer__button:focus {
+  background-color: #5496bd;
+  svg {
+    opacity: 0.3;
+  }
+}
+
 .footer__social-icon {
   width: 18px;
   height: 14px;
@@ -79,4 +90,20 @@
 .footer__htmlacademy {
   width: 27px;
   height: 34px;
+}
+
+@media (min-width: 510px) {
+  .footer {
+    flex-direction: row;
+    height: 120px;
+    padding: 0 8%;
+  }
+
+  .footer__social {
+    width: 151px;
+  }
+
+  .footer__author {
+    width: 129px;
+  }
 }

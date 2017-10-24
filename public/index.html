@@ -15,7 +15,7 @@
   <body>
     
   <nav class="nav">
-    <div class="nav__hidden" id="navigation">
+    <div class="nav__hidden">
       <a class="button" href="#">главная</a>
       <button class="nav__close" id="closebutton">
         <svg class="nav__closebutton-icon" viewBox="0 0 32 32"><use xlink:href='images/icons.svg#icon-cross'></use></svg>
@@ -35,89 +35,109 @@
     
   <header class="page-header">
     <img class="page__logo" src="images/logotyle.svg" alt="Logo"></img>
-    <img class="page-header__text" src="images/text-index.svg" alt="text"></img>
-    <img class="page-header__triangles" src="images/intro-triangle.svg" alt="triangle"></img>
+    <img class="page-header__text" src="images/text-index.svg"
+         srcset="images/text-index.svg 320w, images/page-header-text-tablet.svg 1200w"
+         alt="text"></img>
+    <img class="page-header__triangles" src="images/intro-triangle.svg"
+         srcset="images/intro-triangle.svg 320w, images/main-triangles-tablet.svg 768w, images/intro-triangle-desctop.svg 1200w"
+         alt="triangle"></img>
   </header>
 
 
     
 <section class="description">
   <div class="description__title-wrapper">
-    <h3 class="description__title">СЕДОНА — небольшой<br> городок в АРИЗОНЕ, <br>зАСЛУЖИвающий большего!</h3>
+    <h3 class="description__title">СЕДОНА — небольшой городок в АРИЗОНЕ, <br>зАСЛУЖИвающий большего!</h3>
     <p class="description__title-text">Рассмотрим 5 причин, по которым Седона круче чем гранд каньон!</p>
   </div>
   <img class="description__triangles" src="images/mobile-triangles2.svg" alt="triangle"></img>
   <section class="reasons-wrapper">
-    
+    <div class="reasons__reason1-wrapper">
+      
   <div class="reason">
-    <h3 class="reason__h3">НАСТОЯЩИЙ ГОРОДОК</h3>
+    <div class="reason__textwrapper">
+    <h3 class="reason__h3">НАСТОЯЩИЙ <br class="reason__br">ГОРОДОК</h3>
     <p class="reason__p">— №1 —</p>
-    <p class="reason__p">СЕДОНА НЕ АТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+    <p class="reason__p">СЕДОНА НЕ АТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ<br class="reason__br"> ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+    </div>
   </div>
 
-    <img class="reason__img1" src="images/reason-img-1.png" alt="reason1"></img>
-
+      <img class="reason__img" src="images/reason-img-1.png"
+           srcset="images/reason-img-1.png 320w, images/reason-img-1-tablet.png 768w, images/reason-img-1-desktop.png 1200w"
+           alt="reason1"></img>
+    </div>
     <section class="reasons-small">
       <div class="reasons-small__wrapper">
         <div class="reasons-small__title">
-          <svg class="reasons-small__icon"viewBox="0 0 32 32"><use xlink:href='images/icons.svg#icon-house'></use></svg>
+          <svg class="reasons-small__icon" viewBox="0 0 39 37"><use xlink:href='images/icons.svg#icon-house'></use></svg>
           <h3 class="reasons-small__h3">Жилье</h3>
         </div>
-        <p class="reasons-small__p">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+        <p class="reasons-small__p">Рекомендуем пожить в настоящем мотеле, все как <br>в кино!</p>
       </div>
       <div class="reasons-small__wrapper">
         <div class="reasons-small__title">
-          <svg class="reasons-small__icon"viewBox="0 0 32 32"><use xlink:href='images/icons.svg#icon-gift'></use></svg>
+          <svg class="reasons-small__icon" viewBox="0 0 32 38"><use xlink:href='images/icons.svg#icon-gift'></use></svg>
           <h3 class="reasons-small__h3">СУВЕНИРЫ</h3>
         </div>
         <p class="reasons-small__p">Не только китайского, но и местного производства!</p>
       </div>
       <div class="reasons-small__wrapper">
         <div class="reasons-small__title">
-          <svg class="reasons-small__icon"viewBox="0 0 32 32"><use xlink:href='images/icons.svg#icon-food'></use></svg>
+          <svg class="reasons-small__icon" viewBox="0 0 40 35"><use xlink:href='images/icons.svg#icon-food'></use></svg>
           <h3 class="reasons-small__h3">ЕДА</h3>
         </div>
-        <p class="reasons-small__p">Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
+        <p class="reasons-small__p">Всегда заказывай фирменный бургер, <br class="reasons-small__br">вы не разочаруетесь!</p>
       </div>
     </section>
-
-    
+    <div class="reasons__reason2-wrapper">
+      
   <div class="reason">
-    <h3 class="reason__h3">ТАМ ЕСТЬ Мост дьявола</h3>
+    <div class="reason__textwrapper">
+    <h3 class="reason__h3">ТАМ ЕСТЬ <br class="reason__br">Мост дьявола</h3>
     <p class="reason__p">— №2 —</p>
     <p class="reason__p">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+    </div>
   </div>
 
-    <img class="reason__img2" src="images/reason-img-2.png" alt="reason2"></img>
+      <img class="reason__img" src="images/reason-img-2.png"
+           srcset="images/reason-img-2.png 320w, images/reason-img-2-tablet.png 768w, images/reason-img-2-desktop.png 1200w"
+           alt="reason2"></img>
+    </div>
     <section class="reasons-gray">
       
   <div class="reason">
-    <h3 class="reason__h3">НЕБОЛЬШАЯ ПЛОЩАДЬ</h3>
+    <div class="reason__textwrapper">
+    <h3 class="reason__h3">НЕБОЛЬШАЯ <br class="reason-gray__br">ПЛОЩАДЬ</h3>
     <p class="reason__p">— №3 —</p>
-    <p class="reason__p">ВСЕ достопримечательности находятся очень близко</p>
+    <p class="reason__p">ВСЕ достопримеча<span class="reason-gray__span">-</span><br class="reason-gray__br">тельности находятся очень близко</p>
+    </div>
   </div>
 
       <hr class="reasons-gray__line"></hr>
       
   <div class="reason">
-    <h3 class="reason__h3">КРАСИВАЯ ДОРОГА</h3>
+    <div class="reason__textwrapper">
+    <h3 class="reason__h3">КРАСИВАЯ <br class="reason-gray__br">ДОРОГА</h3>
     <p class="reason__p">— №4 —</p>
-    <p class="reason__p">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!</p>
+    <p class="reason__p">ЕХАТЬ В СЕДОНУ ИЗ <br class="reason-gray__br">ЛАС-ВЕГАСА совсем НЕ СКУЧНО!</p>
+    </div>
   </div>
 
       <hr class="reasons-gray__line"></hr>
       
   <div class="reason">
-    <h3 class="reason__h3">МАЛО ТУРИСТОВ</h3>
+    <div class="reason__textwrapper">
+    <h3 class="reason__h3">МАЛО <br class="reason-gray__br">ТУРИСТОВ</h3>
     <p class="reason__p">— №5 —</p>
     <p class="reason__p">Большинство едет в гранд каньон и толпится там</p>
+    </div>
   </div>
 
     </section>
     <section class="intrested">
       <div class="intrested__textblock">
         <h3 class="intrested__h3">ЗАИНТЕРЕСОВАЛИСЬ?</h3>
-        <p class="intrested__p">Укажите предполагаемые даты<br> поездки и мы покажем вам лучшие<br> предложения гостиниц в седоне</p>
+        <p class="intrested__p">Укажите предполагаемые даты поездки <br class="intrested__br">и мы покажем вам лучшие предложения гостиниц в седоне</p>
       </div>
       <a class="button" href="#">НАЙТИ ГОСТИНИЦУ</a>
     </section>

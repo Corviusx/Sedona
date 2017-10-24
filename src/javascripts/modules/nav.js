@@ -1,15 +1,19 @@
-module.exports = "It works from content.js.";
-
-var nav = document.getElementById('navigation');
 var hamburger = document.getElementById('hamburger');
 var closebutton = document.getElementById('closebutton');
-hamburger.addEventListener("click", openclose);
+var nav = document.getElementsByClassName('nav__hidden');
 
 
 function openclose() {
-  if (nav.style.display == 'none') {
-    nav.style.display ='flex';
-  } else {
-    nav.style.display ='none';
+  var i = 0;
+  for (i = 0; i < nav.length; i++) {
+    var openDropdown = nav[i];
+    if (openDropdown.classList.contains('nav__show')) {
+      openDropdown.classList.remove('nav__show');
+    } else {
+      openDropdown.classList.toggle("nav__show");
+    }
   }
 }
+
+hamburger.addEventListener("click", openclose);
+closebutton.addEventListener("click", openclose);

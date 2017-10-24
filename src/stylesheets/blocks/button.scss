@@ -1,0 +1,23 @@
+.button {
+  height: 55px;
+  width: 100%;
+  padding: 0px;
+  background-color: #81b3d2;
+  border: none;
+  color: #ffffff;
+  font-family: 'PT Sans_Bold', sans-serif;
+  font-size: 18px;
+  line-height: 55px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #669ec0;
+}
+
+.button:focus {
+  background-color: #5496bd;
+  color: rgba(255, 255, 255, 0.3);
+}
