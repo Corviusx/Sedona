@@ -22,7 +22,7 @@
 }
 
 .page-header__triangles {
-  margin: -37px -2px 0px -2px;
+  margin: -37px -2px -1px -2px;
   width: 100%;
 }
 
@@ -42,5 +42,9 @@
   .page-header {
     background-image: url('../images/back-desktop.png');
     height: 518px;
+  }
+
+  .page__logo {
+    width: 188px;
   }
 }

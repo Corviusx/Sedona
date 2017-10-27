@@ -28,12 +28,14 @@
 
 {% block header %}
   <header class="page-header">
-    <img class="page__logo" src="images/logotyle.svg" alt="Logo"></img>
+    <img class="page__logo" src="images/logotyle.svg"
+         srcset="images/logotyle.svg 768w, images/logotype-desktop.svg 1200w"
+     alt="Logo"></img>
     <img class="page-header__text" src="images/text-index.svg"
          srcset="images/text-index.svg 320w, images/page-header-text-tablet.svg 1200w"
          alt="text"></img>
     <img class="page-header__triangles" src="images/intro-triangle.svg"
-         srcset="images/intro-triangle.svg 320w, images/main-triangles-tablet.svg 768w, images/intro-triangle-desctop.svg 1200w"
+         srcset="images/intro-triangle.svg 320w, images/main-triangles-tablet.svg 768w, images/intro-triangle-desktop.svg 1200w"
          alt="triangle"></img>
   </header>
 {% endblock %}

@@ -72,7 +72,7 @@
   align-self: flex-start;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 549px) {
   .nav .button:nth-child(n+1):nth-child(-n+4) {
     border-bottom: 1px solid rgba(1, 1, 1, 0.2);
   }
