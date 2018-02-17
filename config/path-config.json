@@ -27,6 +27,7 @@
     "dest": "images"
   },
 
+
   "fonts": {
     "src": "fonts",
     "dest": "fonts"

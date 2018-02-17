@@ -7,6 +7,7 @@ module.exports = {
   ghPages     : true,
   stylesheets : true,
 
+
   javascripts: {
     entry: {
       // files paths are relative to

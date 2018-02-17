@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"><symbol id="facebook" viewBox="0 0 9 18">
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"><defs><path id="zuowa" d="M82.5 2653.95a4.53 4.53 0 1 1 0 9.06 4.53 4.53 0 0 1 0-9.06z"/></defs><symbol id="facebook" viewBox="0 0 9 18">
   <metadata id="metadata16">
     <rdf:RDF>
       <cc:Work rdf:about="">
@@ -15,7 +15,7 @@ pMsaYQs6MkY6GAHGyRL8nDgchKBMhypLfpafZISQ1AM1UMW6lUTSCNziZTlHaAZ++aGTpAfwTl0m
 YPDa8lLSE+gS1JjZa4FWwF3uCWqBT4F0JrtzkvQ/yKU9srhP5hNuezn5dpsubDy7XQT6Ar9LVUKN
 d0NvAAAAAElFTkSuQmCC
 " id="image18" x="0" y="0"/>
-</symbol><symbol id="htmlacademy" viewBox="0 0 27 34">
+</symbol><symbol id="fullscreen-white" viewBox="0 0 20 20"><g><g transform="translate(-977 -2000)"><image width="20" height="20" transform="translate(977 2000)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAZElEQVQ4T2P8////fwYsgJGRkRGbOEwMp74hZ6AjzEuMjIwH8HkZWQ7Zl4woHALhhssC2hpIrLeIVYc3aRBrCLK6UQPJCTVUPdQPw////zuQkzvQcgrCjMGfU2jqQpQUP2wLWAB+xWgibT5Z2AAAAABJRU5ErkJggg=="/></g></g></symbol><symbol id="fullscreen" viewBox="0 0 20 20"><g><g transform="translate(-257 -2703)"><image width="20" height="20" transform="translate(257 2703)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAaklEQVQ4T2OMySj4z4AFLJkxgRGbOEwMlz7GIWegI8xLS2ZMOIDPy8hyyL5E8TKhcMNlAW0NJNZbxKrDmzSINQRZ3aiB5IQaqh7qh2FMRoEDObkDLafAzRgCOQU5H1I9LyOHCyHDh24BCwCFoVDteUdsrQAAAABJRU5ErkJggg=="/></g></g></symbol><symbol id="htmlacademy" viewBox="0 0 27 34">
   <metadata id="metadata26">
     <rdf:RDF>
       <cc:Work rdf:about="">
@@ -181,7 +181,42 @@ AABJRU5ErkJggg==
 lpFGwQ02dtRwrKELSooHaBXuo+l8AMKcVpE5molwhuxoOseZzmlWhwIA30Im2V7nIq0AAAAASUVO
 RK5CYII=
 " id="image27" x="0" y="0"/>
-</symbol><symbol id="twitter" viewBox="0 0 18 14">
+</symbol><symbol id="like-icon" viewBox="0 0 230.792 230.792">
+<path d="M3.619,230.792h67.077V94.348H3.619V230.792z M18.619,109.348h37.077v106.444H18.619V109.348z M84.903,230.792h121.701
+	l20.569-118.711l-26.521-26.518h-33.546l9.347-23.757L169.131,3.28L127.06,0l-12.381,42.706L84.903,91.002V230.792z M99.903,95.254
+	l28.615-46.411l9.549-32.938l17.698,1.38l5.309,42.444l0.019,0.15l-16.008,40.685h49.355l16.625,16.623l-17.085,98.605H99.903
+	V95.254z"/>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</symbol><symbol id="replay-white" viewBox="0 0 16 20"><g><g transform="translate(-274 -1999)"><image width="16" height="20" transform="translate(274 1999)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAUCAYAAACEYr13AAAA6klEQVQ4T52TUXHDMBBE3zIIhEJIGMQQiqA2srYIAiFm0EAohDDYzmXkjq1IctX7tG+fdLcr0Sjb75KmVo9qP0MMjJKqPaEt/lzEj4ZewFrcDcjF2Xgz8CnpY/19M8IOYNHdgFdJ38UdFCAD8AK8AedEuQOngHQt0fYIhDtRN0mnbhszyNT0uBYk29c0ztwENEL2O8p/AbHMuAWy7XTSICm83i3bRcCUh+RPI2wWIoXnu7XRPNmSRTWnFW20/QUcU3N1lGqQbEdUA3JIkMfDASLvEduAt6OcIJfVTWq72H1MEZL1aQuo+Jx/AFyPijeEN5q0AAAAAElFTkSuQmCC"/></g></g></symbol><symbol id="replay" viewBox="0 0 16 20"><g><g transform="translate(-45 -2702)"><image width="16" height="20" transform="translate(45 2702)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAUCAYAAACEYr13AAABBklEQVQ4T5WTsQ3CMBBF/wEDMEJGCBuQEagJIlS49CguTUUQoWYEsgGMwAgMgDA6cJRg2Ql2afue/v93R+g5SyH3J602fX8o9MjFBBSVVsE/XOt9bIr5QzSgWxwNcIsdezUBh6NWZff+x8IA4FtncJsQFqVWd28GHkhGQGKANYC5hTwmhBlDokJcCVkYYN8oqXZqFt3GLoSATW+PQ4OUC3mxdjjY+OOoiAfkQnKYrAKUC2ksIqu0qv/BeQEciDskIdiPhW4glVbZnwraEN22DKnwtjHfyisIqR3NoJXgIBVCJk8Dhkythc/iGOD+GuExfiEdHGULOTdKglkMLZOV2S5OS/Ku8xud1JLxxkV7uwAAAABJRU5ErkJggg=="/></g></g></symbol><symbol id="subtitles-white" viewBox="0 0 32 20"><g><g transform="translate(-914 -2000)"><image width="32" height="20" transform="translate(914 2000)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAUCAYAAADskT9PAAABT0lEQVRIS9WWjU3DUAyE7zaADRiBbkBHYAOYhHYCxATABIgJyAZkA9iAbuDqq55RitLkRZSWWqqanxf77mLfiyPiTNKLpCsdNhpJ146ItyMUT6oNAOKwxLernRSAJ0mvklpJ9A2/e0mXhdNK0oMk3i1ruH4h6XFI4VoFbm0DYCsi4r0U+pQ0t83/d0QEAD5+C2BpexERMIJNMu7mpXgTETdFFdSpihoFzm2vBqaltT0rbFGkujgIxwBkcpJ+7aCUCsF+8H33PT8GoLE9jwhMCr/oiwSwkHRXpXtn0WkAAPCAYf3pK6B2bRPSJ4zcXpsQAMnw56aF8RBcn9luy6iysTH/BL6Qx73tMdYD+dCmQJ6wg5bRpOvpfu7hBRtQeb8cMz07VakFQC6c8LmwIiHM6PquFS8LmK4VY9d7ATB1wqrWT1GgKuHURf/ig+Son2RrlZfRZ+cFpV0AAAAASUVORK5CYII="/></g></g></symbol><symbol id="subtitles" viewBox="0 0 32 20"><g><g transform="translate(-194 -2703)"><image width="32" height="20" transform="translate(194 2703)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAUCAYAAADskT9PAAABkUlEQVRIS9WWQU7CQBSGv2lqgrt6A44AN5AjuFVMcEXjam4AnMBxY+qKGolb4gnkBvYGcAPYSQx2zBusAQVao4LOqmnfvPf//3vzd1RD62A2pQ8cst018EscqXqoH3ZQPKM6EAB2u8SXq/0fABZipbj3LcmzR+ClBFguUFQcJ8sExSUgvU1mUyoKyha6mxQupICCs9vIxB8T1Zv6UQBYGO1BLY7MaDGmEeryDIbfBdDpRaZ9fK4r3gvdd8bLWWu9yAxOQ92wc1WConOVq4Bf4iA2ZrL2tFiS3rWpOrYWUaRwcQG5GUCWfO4V4zWsnEKOfU6/V+3PU2DQi0ytHmoxKfGLVcsBqIe6DbSKSp/F/Q8AgnaDYf1qCyg8hDInTwx/dgjnjXIMP/20xHjcGBOkHtW7K5PIUVUpfTGguTcxyp7XzUbeDLh9WYEsiYCRo3kS6q6CBpbE36cm7yQm++5a19TjTaoUAvDGJlZw48PIWbGlTEpr0YqtR0cJmEUrzjGmwgC+eryKxv8JALu9kOz6SvYK5I/dy1+HlZUAAAAASUVORK5CYII="/></g></g></symbol><symbol id="twitter" viewBox="0 0 18 14">
   <metadata id="metadata36">
     <rdf:RDF>
       <cc:Work rdf:about="">
@@ -200,7 +235,7 @@ wAx4BV4kfUTFnqjs/IRqajK6yh1wVAFaSuo56As4TppYU8Wf65GksYMmwP2hr5P4vpsUrGzgSlme
 TFIrjE8EuTPTml4UwVaSzlKQD+X2H326cGd/QVHVM/B4gKrgVi4zH/fwb2ZNYRtJp2mtuf3thkoK
 pz+UFpf2CbiumCdfUF/ah7Ll3gO6YWG/hsyX2QAAAABJRU5ErkJggg==
 " id="image38" x="0" y="0"/>
-</symbol><symbol id="youtube" viewBox="0 0 20 14">
+</symbol><symbol id="volume-slider" viewBox="0 0 9 9"><g><g transform="translate(-78 -2654)"><use fill="#283645" xlink:href="#zuowa"/><use fill="#fff" xlink:href="#zuowa"/></g></g></symbol><symbol id="youtube" viewBox="0 0 20 14">
   <metadata id="metadata46">
     <rdf:RDF>
       <cc:Work rdf:about="">

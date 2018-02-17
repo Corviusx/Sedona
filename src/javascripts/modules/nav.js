@@ -2,7 +2,6 @@ var hamburger = document.getElementById('hamburger');
 var closebutton = document.getElementById('closebutton');
 var nav = document.getElementsByClassName('nav__hidden');
 
-
 function openclose() {
   var i = 0;
   for (i = 0; i < nav.length; i++) {

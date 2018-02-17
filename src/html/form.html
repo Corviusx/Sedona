@@ -1,0 +1,23 @@
+{% extends 'layouts/blocks.html' %}
+{% extends 'layouts/form.html' %}
+
+{% block form %}
+  <section class="form__wrapper">
+    <div class="description__title-wrapper">
+      <h3 class="description__title">Оставьте свой отзыв</h3>
+      <p class="description__title-text">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+    </div>
+
+    <hr class="form__hr">
+
+    <div class="form__initials">
+      <h3 class="form__h3">Представьтесь, пожалуйста:</h3>
+      <p class="form__p">Имя:</p>
+      <input class="form__input-text" type="text" name="name" value="">
+      <p class="form__p">Фамилия:</p>
+      <input class="form__input-text" type="text" name="lastname" value="">
+      <p class="form__p">Отчество:</p>
+      <input class="form__input-text" type="text" name="patronymic" value="">
+    </div>
+  </section>
+{% endblock %}
