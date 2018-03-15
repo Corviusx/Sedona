@@ -54,14 +54,6 @@ window.SetVolume = function(val)
 }
 
 
-// const updateProgress = () => {
-//   // Calculate current progress
-//   let value = (100 / videoElement.duration) * videoElement.currentTime;
-//
-//   // Update the slider value
-//   progressBarFill.style.width = value + '%';
-// }
-
 btnReset.addEventListener('click', restartVideo, false);
 btnExpand.addEventListener('click', expandVideo, false);
 videoWrapper.addEventListener('mouseenter', showControls, false);
