@@ -275,10 +275,9 @@
       margin: 0;
       height: 58px;
     }
-  }
-
-  .description__title-wrapper {
-    margin-bottom: 77px;
+    .description__title-wrapper {
+      margin-bottom: 77px;
+    }
   }
 
   .form__h3 {
@@ -457,9 +456,11 @@
 
 
 @media (min-width: 1200px) {
-  .description__title-wrapper {
-    padding: 0 260px;
-    margin: 38px 120px 62px 120px;
+  .form__wrapper {
+    .description__title-wrapper {
+      padding: 0 260px;
+      margin: 38px 120px 62px 120px;
+    }
   }
 
   .form__check-text {
