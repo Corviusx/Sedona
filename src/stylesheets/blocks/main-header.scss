@@ -26,7 +26,7 @@
   width: 100%;
 }
 
-@media (min-width: 321px) {
+@media (min-width: 321px) and (device-max-width: 321px){
   .page-header {
     background-image: url('../images/back-tablet.png');
     height: 518px;
@@ -37,6 +37,14 @@
     max-width: 460px;
   }
 }
+
+@media (min-width: 321px) {
+  .page-header {
+    background-image: url('../images/back-tablet.png');
+    background-position: bottom;
+  }
+}
+
 
 @media (min-width: 769px) {
   .page-header {

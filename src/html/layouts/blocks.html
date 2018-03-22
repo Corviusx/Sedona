@@ -21,12 +21,15 @@
   <header class="page-header">
     <img class="page__logo" src="images/logotyle.svg"
          srcset="images/logotyle.svg 768w, images/logotype-desktop.svg 1200w"
+         sizes="100vw"
      alt="Logo"></img>
     <img class="page-header__text" src="images/text-index.svg"
-         srcset="images/text-index.svg 320w, images/page-header-text-tablet.svg 1200w"
+         srcset="images/text-index.svg 768w, images/page-header-text-tablet.svg 1200w"
+         sizes="100vw"
          alt="text"></img>
     <img class="page-header__triangles" src="images/intro-triangle.svg"
          srcset="images/intro-triangle.svg 320w, images/main-triangles-tablet.svg 768w, images/intro-triangle-desktop.svg 1200w"
+         sizes="100vw"
          alt="triangle"></img>
   </header>
 {% endblock %}
@@ -40,7 +43,7 @@
       <svg class="footer__social-icon" viewBox="0 0 18 14"><use xlink:href='images/icons.svg#twitter'></use></svg>
     </a>
     <a class="footer__button" href="#">
-      <svg class="footer__social-icon" viewBox="0 0 9 18"><use xlink:href='images/icons.svg#facebook'></use></svg>
+      <svg class="footer__social-icon" viewBox="0 0 9 18"><use href='images/icons.svg#facebook'></use></svg>
     </a>
     <a class="footer__button" href="#">
       <svg class="footer__social-icon" viewBox="0 0 20 14"><use xlink:href='images/icons.svg#youtube'></use></svg>
