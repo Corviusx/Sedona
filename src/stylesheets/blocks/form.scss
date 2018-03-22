@@ -3,6 +3,8 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  // padding: 0 20px;
+  // box-sizing: border-box;
   .description__title-wrapper {
     padding-top: 38px;
     height: auto;
@@ -28,11 +30,13 @@
 //INITIALS
 
 .form__initials {
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0 20px 0 20px;
+  box-sizing: border-box;
   .form__p {
     width: 31%;
     line-height: 58px;
@@ -73,10 +77,12 @@
 //CONTACTS
 
 .form__contacts {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   padding: 0 20px 0 20px;
+  box-sizing: border-box;
   .form__p {
     height: 14px;
     margin: 8px 0 14px 21px;
@@ -149,7 +155,7 @@
   flex-direction: column;
   width: 100%;
   justify-content: flex-start;
-  padding: 0 20px 0 20px;
+  padding: 0 20px;
   box-sizing: border-box;
   .form__p {
     height: 58px;
@@ -246,10 +252,6 @@
 }
 
 .form__bigline {
-  display: none;
-}
-
-.form__br {
   display: none;
 }
 
